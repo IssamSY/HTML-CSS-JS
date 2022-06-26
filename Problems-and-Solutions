@@ -2,5 +2,7 @@ Notes:
 Dots represents the class name of an element, example "div.upper" means '<div class="upper></div>"'.
 Hashtag represents the id name of an element, example "div#upper" means '<div id="upper"></div>'.
 
-You wanna center body's childnodes, here's the solution:
+1Q - You wanna center body's childnodes, here's the solution:
 For div (body>div.centered-div):
+
+2Q - Preforming calculation in CSS : " width: calc(100% - 30px);".
