@@ -4,5 +4,10 @@ Hashtag represents the id name of an element, example "div#upper" means '<div id
 
 1Q - You wanna center body's childnodes, here's the solution:
 For div (body>div.centered-div):
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 2Q - Preforming calculation in CSS : " width: calc(100% - 30px);".
